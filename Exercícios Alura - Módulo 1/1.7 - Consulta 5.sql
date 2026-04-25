@@ -2,7 +2,8 @@
 
 /*Mostrando o nome dos alunos, suas respectivas notas e o status da aprovação: */
 
-select alunos.nome_aluno, notas.valor_nota,
+select 
+	alunos.nome_aluno, notas.valor_nota,
 case 
 	when notas.valor_nota >= 6 then 'Aprovado'
     else 'Reprovado'
@@ -13,7 +14,8 @@ on notas.id_aluno_fk = alunos.id_aluno;
 
 /*Caso haja a necessidade de saber quantidade de alunos aprovados (21) e reprovados (29) segundo o critério do enunciado:*/
 
-select count(*) as Quantidade,
+select 
+	count(*) as Quantidade,
 case 
 	when valor_nota >= 6 then 'Aprovado'
     else 'Reprovado'
