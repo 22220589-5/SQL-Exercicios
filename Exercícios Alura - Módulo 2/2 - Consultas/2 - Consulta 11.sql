@@ -1,4 +1,4 @@
--- Consulta 11 (extra): mostrar a quantidade total que foi pedida de cada produto em ordem decrescente
+-- Consulta 11 (extra): mostrar o quanto foi pedido (quantidade) de cada produto em ordem decrescente
 
 select 
   produtos.id_produto, produtos.nome, sum(itens_de_pedido.quantidade) as quantidade_total
