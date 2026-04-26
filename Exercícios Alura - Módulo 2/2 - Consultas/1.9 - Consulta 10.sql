@@ -1,4 +1,4 @@
--- Consulta 10: Recupere o nome e o ID do cliente que mais comprou(valor) no Serenatto
+-- Consulta 10: Recupere o nome e o ID do cliente que mais gastou no Serenatto
 
 select 
 	clientes.id_cliente, clientes.nome, sum(itens_de_pedido.preco_unitario) as compra_total
