@@ -9,4 +9,4 @@ join
 join 
   produtos on itens_de_pedido.id_produto_fk = produtos.id_produto
 where 
-  clientes.nome = 'Pedro Alves' or clientes.nome = 'Ana Rodrigues';
+  clientes.nome in ('Pedro Alves', 'Ana Rodrigues');
