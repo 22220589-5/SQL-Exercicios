@@ -19,14 +19,14 @@ create table clientes (
     primary key(id_cliente),
     nome_cliente varchar(100),
     idade int,
-    endereco varchar(150)
+    endereco_cliente varchar(150)
 );
 
 create table produtos(
 	id_produto int auto_increment,
     primary key(id_produto),
     nome_produto varchar(100),
-    preco decimal(10,2),
+    preco_produto decimal(10,2),
     id_categoria_fk int,
     foreign key(id_categoria_fk) references categorias(id_categoria) on delete cascade,
     id_marca_fk int,
@@ -34,7 +34,7 @@ create table produtos(
     id_fornecedor_fk int,
     foreign key(id_fornecedor_fk) references fornecedores(id_fornecedor) on delete cascade,
     data_estoque date,
-    status varchar(100)
+    status_produto varchar(100)
 );
 
 create table fornecedores (
