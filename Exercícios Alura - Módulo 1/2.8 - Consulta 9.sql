@@ -1,4 +1,4 @@
--- Consulta 4: Listar os Alunos e as disciplinas em que estão matriculados
+-- Consulta 9: Listar os Alunos e as disciplinas em que estão matriculados
 
 -- Lista os alunos ordenando pelo nome deles e as disciplinas cursadas
 select 
