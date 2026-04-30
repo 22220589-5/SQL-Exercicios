@@ -1,4 +1,4 @@
--- Consulta 5: Criar uma view que apresenta o nome, a disciplina e a nota dos alunos
+-- Consulta 10: Criar uma view que apresenta o nome, a disciplina e a nota dos alunos
 
 -- Cria a view info_alunos com 3 campos: nome do aluno, nome da disciplina e as notas,
 -- ordenando da maior nota para a menor
