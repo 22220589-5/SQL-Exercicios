@@ -2,6 +2,7 @@
 
 with Fornecedores_Vendas_2020 as (
 	select
+		year(vendas.data_venda) as Ano,
 		fornecedores.nome_fornecedor as Fornecedor,
 		count(vendas.id_venda) as Qtde
 	from 
@@ -16,9 +17,11 @@ with Fornecedores_Vendas_2020 as (
 		Qtde desc
 ) 
 select 
+	Ano,
 	Fornecedor,
     max(Qtde) as Vendas
 from 
 	Fornecedores_Vendas_2020;
     
--- Resultado: HorizonDistributors - 5093
+-- Resultado: 
+-- 2020 - HorizonDistributors - 5093
