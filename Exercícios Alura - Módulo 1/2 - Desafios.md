@@ -1,0 +1,33 @@
+# Desafios:
+Vamos considerar algumas consultas típicas que podem ser realizadas em um sistema de gerenciamento escolar.
+
+
+### Consulta 1: 
+Retornar a média de Notas dos Alunos em história.
+
+### Consulta 2: 
+Retornar as informações dos alunos cujo Nome começa com 'A'.
+
+### Consulta 3: 
+Buscar apenas os alunos que fazem aniversário em fevereiro.
+
+### Consulta 4: 
+Realizar uma consulta que calcula a idade dos Alunos.
+
+### Consulta 5: 
+Retornar se o aluno está ou não aprovado. Aluno é considerado aprovado se a sua nota foi igual ou maior que 6.
+
+### Consulta 6: 
+Buscar o nome do professor e a turma que ele é orientador
+
+### Consulta 7: 
+Retornar o nome e a nota do aluno que possui a melhor nota na disciplina de Matemática
+
+### Consulta 8: 
+Identificar o total de alunos por turma
+
+### Consulta 9: 
+Listar os Alunos e as disciplinas em que estão matriculados
+
+### Consulta 10: 
+Criar uma view que apresenta o nome, a disciplina e a nota dos alunos
